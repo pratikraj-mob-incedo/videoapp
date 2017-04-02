@@ -1,6 +1,5 @@
 videoApp
-.controller('historyController', ['$scope', '$moviesService',
-function historyController($scope, $moviesService) {
+.controller('historyController', ['$scope', '$moviesService', function historyController($scope, $moviesService) {
 
   $scope.slides = [];
 

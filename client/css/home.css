@@ -17,9 +17,10 @@
 
 .carousel-item {
   margin-top: 40px;
+  cursor: pointer;
 }
 
-img:hover {
+.carousel-item img:hover {
   border: 2px solid #428bca;
 }
 
@@ -41,21 +42,6 @@ nav a:nth-child(2){
   right: 10px;
   font-size: 20px;
   color: #fff;
-}
-
-#slides_control > div{
-  height: 200px;
-}
-#slides_control img{
-  margin:auto;
-  width: 400px;
-}
-#slides_control {
-  position:absolute;
-  width: 400px;
-  left:50%;
-  top:20px;
-  margin-left:-200px;
 }
 
 .film-info {
@@ -83,19 +69,13 @@ nav a:nth-child(2){
   width: 50%;
   display: inline-block;
   vertical-align: inherit;
-}
-
-.film-synopsis .film-synopsis-inner {
-  margin-right: .5em;
+  margin-right: 20px;
 }
 
 .film-credits {
   width: 50%;
   display: inline-block;
   vertical-align: inherit;
-}
-.film-credits .credits-inner {
-  margin-left: .5em;
 }
 
 .film-credits .credits-heading {

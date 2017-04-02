@@ -1,5 +1,6 @@
 videoApp
-.controller('headerController', ['$scope', '$http', '$location', '$window', function headerController($scope, $http, $location,$window) {
+.controller('headerController', ['$scope', '$location', function headerController($scope, $location) {
+
   $scope.navitem1 = "Home";
   $scope.navitem2 = "History";
 

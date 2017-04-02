@@ -1,4 +1,5 @@
 videoApp.service('$moviesService', function ($http) {
+
   this.getMoviesInfo = function() {
     var moviesPromise = $http.get('https://demo2697834.mockable.io/movies').then(function(data) {
       return data.data.entries;

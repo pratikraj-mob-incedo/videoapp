@@ -20,10 +20,14 @@
       <strong class="extra-info-heading">Categories: </strong>
       <span ng-repeat="category in film.categories">{{category.title + ''}}</span>
     </p>
+    <p class="film-categories">
+      <strong class="extra-info-heading">Released On: </strong>
+      <span>{{releaseDate}}</span>
+    </p>
     <div class="extra-info">
       <div class="film-synopsis">
         <p class="extra-info-heading">Synopsis</p>
-        <div class="film-synopsis-inner">{{film.description}}</div>
+        <div>{{film.description}}</div>
       </div>
       <div class="film-credits">
         <p class="extra-info-heading">Credits</p>
