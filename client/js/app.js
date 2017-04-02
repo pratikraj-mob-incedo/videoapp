@@ -1,7 +1,8 @@
 var videoApp = angular.module('videoApp', [
   'ngVideo',
   'ngRoute',
-  'ui.carousel'
+  'ui.carousel',
+  'ngAria'
 ]);
 
 videoApp.config(function ($routeProvider, $locationProvider, $httpProvider) {
